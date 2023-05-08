@@ -2,6 +2,9 @@ import os
 import serial
 import time
 import pytools
+import sys
+from serial.tools import list_ports
+import traceback
 
 class log:
     def write(data):
@@ -15,15 +18,19 @@ class log:
 
 class arduino:
     def connect():
+        print("Connecting Arduino...")
         comNumber = -1
-        while (comNumber < 100) and (arduino.conn == False):
-            comNumber = comNumber + 1
-            try:
-                arduino.conn = serial.Serial(port='COM' + str(comNumber), baudrate=115200, timeout=.1)
-            except:
-                log.write("Connection Faliure. Device not detected.")
-                time.sleep(1)
-                log.write("checking again...")
+        while (arduino.conn == False): 
+            for port in list_ports.comports():
+                print("Checking Port " + str(port.usb_info()) + "...")
+                if port.usb_info().split("PID=")[1].split(" ")[0] != '0000:0000':
+                    try:
+                        arduino.conn = serial.Serial(port=port.usb_description(), baudrate=115200, timeout=.1)
+                    except:
+                        log.write("Connection Faliure. Device not detected.")
+                        log.write(traceback.format_exc())
+                        time.sleep(1)
+                        log.write("checking again...")
 
     conn = False
 
@@ -59,3 +66,9 @@ def main():
             arduino.conn = False
             while arduino.conn == False:
                 arduino.connect()
+
+try:
+    if sys.argv[1] == "--run":
+        main()
+except:
+    pass

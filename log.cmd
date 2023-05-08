@@ -1,3 +1,3 @@
 :loop
-py lsu-logs.py
+py lsuConsole.py --run
 goto loop

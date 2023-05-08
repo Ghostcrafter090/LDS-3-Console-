@@ -1,0 +1,532 @@
+Connection Faliure. Device not detected.Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\LDS-3\LDS-3-Console-\lsuConsole.py", line 54, in main
+    out = arduino.read()
+          ^^^^^^^^^^^^^^
+  File "C:\Users\joshp\Desktop\LDS-3\LDS-3-Console-\lsuConsole.py", line 41, in read
+    data = arduino.conn.readline()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 288, in read
+    result_ok = win32.GetOverlappedResult(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\LDS-3\LDS-3-Console-\lsuConsole.py", line 28, in connect
+    arduino.conn = serial.Serial(port=port.usb_description(), baudrate=115200, timeout=.1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': PermissionError(13, 'Access is denied.', None, 5)
+Connection Faliure. Device not detected.Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\LDS-3\LDS-3-Console-\lsuConsole.py", line 28, in connect
+    arduino.conn = serial.Serial(port=port.usb_description(), baudrate=115200, timeout=.1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': PermissionError(13, 'Access is denied.', None, 5)
+checking again...Connection Faliure. Device not detected.Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\LDS-3\LDS-3-Console-\lsuConsole.py", line 28, in connect
+    arduino.conn = serial.Serial(port=port.usb_description(), baudrate=115200, timeout=.1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Access is denied.', None, 5)
+checking again...Connection Faliure. Device not detected.Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\LDS-3\LDS-3-Console-\lsuConsole.py", line 28, in connect
+    arduino.conn = serial.Serial(port=port.usb_description(), baudrate=115200, timeout=.1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': PermissionError(13, 'Access is denied.', None, 5)
+checking again...Connection Faliure. Device not detected.Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\LDS-3\LDS-3-Console-\lsuConsole.py", line 28, in connect
+    arduino.conn = serial.Serial(port=port.usb_description(), baudrate=115200, timeout=.1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM3': PermissionError(13, 'Access is denied.', None, 5)
+checking again...Connection Faliure. Device not detected.Traceback (most recent call last):
+  File "C:\Users\joshp\Desktop\LDS-3\LDS-3-Console-\lsuConsole.py", line 28, in connect
+    arduino.conn = serial.Serial(port=port.usb_description(), baudrate=115200, timeout=.1)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 33, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialutil.py", line 244, in __init__
+    self.open()
+  File "C:\Users\joshp\AppData\Local\Programs\Python\Python311\Lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': PermissionError(13, 'Access is denied.', None, 5)
+checking again...{"message":"System Started."}
+{"strike":"True","Calibration":{"sensorA":{"emfHigh":0,"emfLow":0},"sensorB":{"emfHigh":0,"emfLow":0},"sensor":"A"},"latency":0,"millis":2927,"strikeMax":36,"dangerLevel":0,"time":[2023,2,2,0,21,9]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":56,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":411,"freeMemmory":791,"millis":7456,"dangerLevel":0,"time":[2023,2,2,0,21,14]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":55,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":324,"freeMemmory":791,"millis":12467,"dangerLevel":0,"time":[2023,2,2,0,21,19]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":54,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":324,"freeMemmory":791,"millis":17477,"dangerLevel":0,"time":[2023,2,2,0,21,24]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":53,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":324,"freeMemmory":791,"millis":22488,"dangerLevel":0,"time":[2023,2,2,0,21,29]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":56,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":326,"freeMemmory":791,"millis":27498,"dangerLevel":0,"time":[2023,2,2,0,21,34]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":55,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":323,"freeMemmory":791,"millis":32508,"dangerLevel":0,"time":[2023,2,2,0,21,39]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":56,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":324,"freeMemmory":791,"millis":37518,"dangerLevel":0,"time":[2023,2,2,0,21,44]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":55,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":323,"freeMemmory":791,"millis":42528,"dangerLevel":0,"time":[2023,2,2,0,21,49]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":56,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":324,"freeMemmory":791,"millis":47538,"dangerLevel":0,"time":[2023,2,2,0,21,54]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":55,"emfLow":0},"sensorB":{"emfHigh":22,"emfLow":0}},"latency":326,"freeMemmory":791,"millis":52549,"dangerLevel":0,"time":[2023,2,2,0,21,59]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":21,"emfLow":0}},"latency":324,"freeMemmory":791,"millis":57560,"dangerLevel":0,"time":[2023,2,2,0,22,4]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":326,"freeMemmory":791,"millis":62569,"dangerLevel":0,"time":[2023,2,2,0,22,9]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":324,"freeMemmory":791,"millis":67580,"dangerLevel":0,"time":[2023,2,2,0,22,14]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":325,"freeMemmory":791,"millis":72590,"dangerLevel":0,"time":[2023,2,2,0,22,19]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":325,"freeMemmory":791,"millis":77600,"dangerLevel":0,"time":[2023,2,2,0,22,24]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":326,"freeMemmory":791,"millis":82610,"dangerLevel":0,"time":[2023,2,2,0,22,29]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":328,"freeMemmory":791,"millis":87621,"dangerLevel":0,"time":[2023,2,2,0,22,34]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":328,"freeMemmory":791,"millis":92632,"dangerLevel":0,"time":[2023,2,2,0,22,39]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":324,"freeMemmory":791,"millis":97641,"dangerLevel":0,"time":[2023,2,2,0,22,44]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":327,"freeMemmory":791,"millis":102652,"dangerLevel":0,"time":[2023,2,2,0,22,49]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":424,"freeMemmory":791,"millis":107662,"dangerLevel":0,"time":[2023,2,2,0,22,54]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":60,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":338,"freeMemmory":791,"millis":112672,"dangerLevel":0,"time":[2023,2,2,0,22,59]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":59,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":368,"freeMemmory":791,"millis":117682,"dangerLevel":0,"time":[2023,2,2,0,23,4]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":58,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":331,"freeMemmory":791,"millis":122693,"dangerLevel":0,"time":[2023,2,2,0,23,9]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":426,"freeMemmory":791,"millis":127704,"dangerLevel":0,"time":[2023,2,2,0,23,14]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":361,"freeMemmory":791,"millis":132713,"dangerLevel":0,"time":[2023,2,2,0,23,19]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":338,"freeMemmory":791,"millis":137724,"dangerLevel":0,"time":[2023,2,2,0,23,24]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":384,"freeMemmory":791,"millis":142734,"dangerLevel":0,"time":[2023,2,2,0,23,29]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":413,"freeMemmory":791,"millis":147744,"dangerLevel":0,"time":[2023,2,2,0,23,34]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":152754,"dangerLevel":0,"time":[2023,2,2,0,23,39]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":157765,"dangerLevel":0,"time":[2023,2,2,0,23,44]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":368,"freeMemmory":791,"millis":162776,"dangerLevel":0,"time":[2023,2,2,0,23,49]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":60,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":402,"freeMemmory":791,"millis":167785,"dangerLevel":0,"time":[2023,2,2,0,23,54]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":382,"freeMemmory":791,"millis":172796,"dangerLevel":0,"time":[2023,2,2,0,23,59]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":411,"freeMemmory":791,"millis":177806,"dangerLevel":0,"time":[2023,2,2,0,24,4]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":408,"freeMemmory":791,"millis":182817,"dangerLevel":0,"time":[2023,2,2,0,24,9]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":8,"emfLow":0}},"latency":377,"freeMemmory":791,"millis":187827,"dangerLevel":0,"time":[2023,2,2,0,24,14]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":413,"freeMemmory":791,"millis":192837,"dangerLevel":0,"time":[2023,2,2,0,24,19]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":383,"freeMemmory":791,"millis":197848,"dangerLevel":0,"time":[2023,2,2,0,24,24]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":381,"freeMemmory":791,"millis":202857,"dangerLevel":0,"time":[2023,2,2,0,24,29]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":393,"freeMemmory":791,"millis":207868,"dangerLevel":0,"time":[2023,2,2,0,24,34]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":412,"freeMemmory":791,"millis":212878,"dangerLevel":0,"time":[2023,2,2,0,24,39]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":406,"freeMemmory":791,"millis":217888,"dangerLevel":0,"time":[2023,2,2,0,24,44]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":397,"freeMemmory":791,"millis":222898,"dangerLevel":0,"time":[2023,2,2,0,24,49]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":410,"freeMemmory":791,"millis":227909,"dangerLevel":0,"time":[2023,2,2,0,24,54]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":402,"freeMemmory":791,"millis":232921,"dangerLevel":0,"time":[2023,2,2,0,24,59]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":60,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":418,"freeMemmory":791,"millis":237931,"dangerLevel":0,"time":[2023,2,2,0,25,4]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":59,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":419,"freeMemmory":791,"millis":242941,"dangerLevel":0,"time":[2023,2,2,0,25,9]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":58,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":416,"freeMemmory":791,"millis":247954,"dangerLevel":0,"time":[2023,2,2,0,25,14]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":57,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":414,"freeMemmory":791,"millis":252964,"dangerLevel":0,"time":[2023,2,2,0,25,19]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":56,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":386,"freeMemmory":791,"millis":257974,"dangerLevel":0,"time":[2023,2,2,0,25,24]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":409,"freeMemmory":791,"millis":262984,"dangerLevel":0,"time":[2023,2,2,0,25,29]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":419,"freeMemmory":791,"millis":267996,"dangerLevel":0,"time":[2023,2,2,0,25,34]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":420,"freeMemmory":791,"millis":273006,"dangerLevel":0,"time":[2023,2,2,0,25,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":60,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":402,"freeMemmory":791,"millis":278017,"dangerLevel":0,"time":[2023,2,2,0,25,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":59,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":413,"freeMemmory":791,"millis":283026,"dangerLevel":0,"time":[2023,2,2,0,25,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":58,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":418,"freeMemmory":791,"millis":288039,"dangerLevel":0,"time":[2023,2,2,0,25,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":57,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":415,"freeMemmory":791,"millis":293050,"dangerLevel":0,"time":[2023,2,2,0,26,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":56,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":412,"freeMemmory":791,"millis":298060,"dangerLevel":0,"time":[2023,2,2,0,26,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":56,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":415,"freeMemmory":791,"millis":303071,"dangerLevel":0,"time":[2023,2,2,0,26,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":56,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":416,"freeMemmory":791,"millis":308082,"dangerLevel":0,"time":[2023,2,2,0,26,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":56,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":433,"freeMemmory":791,"millis":313097,"dangerLevel":0,"time":[2023,2,2,0,26,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":389,"freeMemmory":791,"millis":318108,"dangerLevel":0,"time":[2023,2,2,0,26,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":416,"freeMemmory":791,"millis":323120,"dangerLevel":0,"time":[2023,2,2,0,26,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":8,"emfLow":0}},"latency":393,"freeMemmory":791,"millis":328129,"dangerLevel":0,"time":[2023,2,2,0,26,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":60,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":421,"freeMemmory":791,"millis":333142,"dangerLevel":0,"time":[2023,2,2,0,26,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":59,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":399,"freeMemmory":791,"millis":338151,"dangerLevel":0,"time":[2023,2,2,0,26,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":415,"freeMemmory":791,"millis":343164,"dangerLevel":0,"time":[2023,2,2,0,26,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":407,"freeMemmory":791,"millis":348177,"dangerLevel":0,"time":[2023,2,2,0,26,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":423,"freeMemmory":791,"millis":353188,"dangerLevel":0,"time":[2023,2,2,0,27,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":411,"freeMemmory":791,"millis":358198,"dangerLevel":0,"time":[2023,2,2,0,27,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":429,"freeMemmory":791,"millis":363209,"dangerLevel":0,"time":[2023,2,2,0,27,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":392,"freeMemmory":791,"millis":368220,"dangerLevel":0,"time":[2023,2,2,0,27,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":8,"emfLow":0}},"latency":413,"freeMemmory":791,"millis":373229,"dangerLevel":0,"time":[2023,2,2,0,27,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":7,"emfLow":0}},"latency":413,"freeMemmory":791,"millis":378240,"dangerLevel":0,"time":[2023,2,2,0,27,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":21,"emfLow":0}},"latency":423,"freeMemmory":791,"millis":383250,"dangerLevel":0,"time":[2023,2,2,0,27,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":406,"freeMemmory":791,"millis":388260,"dangerLevel":0,"time":[2023,2,2,0,27,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":415,"freeMemmory":791,"millis":393270,"dangerLevel":0,"time":[2023,2,2,0,27,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":415,"freeMemmory":791,"millis":398280,"dangerLevel":0,"time":[2023,2,2,0,27,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":416,"freeMemmory":791,"millis":403292,"dangerLevel":0,"time":[2023,2,2,0,27,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":417,"freeMemmory":791,"millis":408301,"dangerLevel":0,"time":[2023,2,2,0,27,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":417,"freeMemmory":791,"millis":413312,"dangerLevel":0,"time":[2023,2,2,0,28,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":413,"freeMemmory":791,"millis":418321,"dangerLevel":0,"time":[2023,2,2,0,28,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":420,"freeMemmory":791,"millis":423332,"dangerLevel":0,"time":[2023,2,2,0,28,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":398,"freeMemmory":791,"millis":428342,"dangerLevel":0,"time":[2023,2,2,0,28,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":408,"freeMemmory":791,"millis":433352,"dangerLevel":0,"time":[2023,2,2,0,28,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":422,"freeMemmory":791,"millis":438366,"dangerLevel":0,"time":[2023,2,2,0,28,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":409,"freeMemmory":791,"millis":443377,"dangerLevel":0,"time":[2023,2,2,0,28,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":415,"freeMemmory":791,"millis":448388,"dangerLevel":0,"time":[2023,2,2,0,28,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":416,"freeMemmory":791,"millis":453399,"dangerLevel":0,"time":[2023,2,2,0,28,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":420,"freeMemmory":791,"millis":458409,"dangerLevel":0,"time":[2023,2,2,0,28,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":415,"freeMemmory":791,"millis":463420,"dangerLevel":0,"time":[2023,2,2,0,28,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":405,"freeMemmory":791,"millis":468432,"dangerLevel":0,"time":[2023,2,2,0,28,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":405,"freeMemmory":791,"millis":473446,"dangerLevel":0,"time":[2023,2,2,0,29,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":410,"freeMemmory":791,"millis":478456,"dangerLevel":0,"time":[2023,2,2,0,29,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":399,"freeMemmory":791,"millis":483466,"dangerLevel":0,"time":[2023,2,2,0,29,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":397,"freeMemmory":791,"millis":488476,"dangerLevel":0,"time":[2023,2,2,0,29,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":60,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":403,"freeMemmory":791,"millis":493488,"dangerLevel":0,"time":[2023,2,2,0,29,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":417,"freeMemmory":791,"millis":498497,"dangerLevel":0,"time":[2023,2,2,0,29,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":407,"freeMemmory":791,"millis":503507,"dangerLevel":0,"time":[2023,2,2,0,29,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":398,"freeMemmory":791,"millis":508518,"dangerLevel":0,"time":[2023,2,2,0,29,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":395,"freeMemmory":791,"millis":513528,"dangerLevel":0,"time":[2023,2,2,0,29,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":416,"freeMemmory":791,"millis":518538,"dangerLevel":0,"time":[2023,2,2,0,29,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":410,"freeMemmory":791,"millis":523548,"dangerLevel":0,"time":[2023,2,2,0,29,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":397,"freeMemmory":791,"millis":528562,"dangerLevel":0,"time":[2023,2,2,0,29,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":401,"freeMemmory":791,"millis":533573,"dangerLevel":0,"time":[2023,2,2,0,30,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":441,"freeMemmory":791,"millis":538587,"dangerLevel":0,"time":[2023,2,2,0,30,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":399,"freeMemmory":791,"millis":543596,"dangerLevel":0,"time":[2023,2,2,0,30,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":394,"freeMemmory":791,"millis":548606,"dangerLevel":0,"time":[2023,2,2,0,30,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":398,"freeMemmory":791,"millis":553618,"dangerLevel":0,"time":[2023,2,2,0,30,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":431,"freeMemmory":791,"millis":558631,"dangerLevel":0,"time":[2023,2,2,0,30,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":563642,"dangerLevel":0,"time":[2023,2,2,0,30,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":402,"freeMemmory":791,"millis":568655,"dangerLevel":0,"time":[2023,2,2,0,30,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":400,"freeMemmory":791,"millis":573665,"dangerLevel":0,"time":[2023,2,2,0,30,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":60,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":404,"freeMemmory":791,"millis":578676,"dangerLevel":0,"time":[2023,2,2,0,30,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":396,"freeMemmory":791,"millis":583688,"dangerLevel":0,"time":[2023,2,2,0,30,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":389,"freeMemmory":791,"millis":588700,"dangerLevel":0,"time":[2023,2,2,0,30,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":388,"freeMemmory":791,"millis":593712,"dangerLevel":0,"time":[2023,2,2,0,31,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":390,"freeMemmory":791,"millis":598723,"dangerLevel":0,"time":[2023,2,2,0,31,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":8,"emfLow":0}},"latency":382,"freeMemmory":791,"millis":603734,"dangerLevel":0,"time":[2023,2,2,0,31,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":7,"emfLow":0}},"latency":376,"freeMemmory":791,"millis":608743,"dangerLevel":0,"time":[2023,2,2,0,31,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":6,"emfLow":0}},"latency":385,"freeMemmory":791,"millis":613757,"dangerLevel":0,"time":[2023,2,2,0,31,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":618770,"dangerLevel":0,"time":[2023,2,2,0,31,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":623787,"dangerLevel":0,"time":[2023,2,2,0,31,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":628803,"dangerLevel":0,"time":[2023,2,2,0,31,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":633817,"dangerLevel":0,"time":[2023,2,2,0,31,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":638829,"dangerLevel":0,"time":[2023,2,2,0,31,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":643844,"dangerLevel":0,"time":[2023,2,2,0,31,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":648855,"dangerLevel":0,"time":[2023,2,2,0,31,56]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":367,"freeMemmory":791,"millis":653870,"dangerLevel":0,"time":[2023,2,2,0,32,1]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":658881,"dangerLevel":0,"time":[2023,2,2,0,32,6]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":663897,"dangerLevel":0,"time":[2023,2,2,0,32,11]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":668910,"dangerLevel":0,"time":[2023,2,2,0,32,16]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":673926,"dangerLevel":0,"time":[2023,2,2,0,32,21]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":678939,"dangerLevel":0,"time":[2023,2,2,0,32,26]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":683954,"dangerLevel":0,"time":[2023,2,2,0,32,31]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":688969,"dangerLevel":0,"time":[2023,2,2,0,32,36]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":693981,"dangerLevel":0,"time":[2023,2,2,0,32,41]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":698995,"dangerLevel":0,"time":[2023,2,2,0,32,46]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":472,"freeMemmory":791,"millis":704007,"dangerLevel":0,"time":[2023,2,2,0,32,51]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":709020,"dangerLevel":0,"time":[2023,2,2,0,32,56]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":26,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":714034,"dangerLevel":0,"time":[2023,2,2,0,33,1]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":25,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":719049,"dangerLevel":0,"time":[2023,2,2,0,33,6]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":24,"emfLow":0}},"latency":477,"freeMemmory":791,"millis":724066,"dangerLevel":0,"time":[2023,2,2,0,33,11]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":23,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":729081,"dangerLevel":0,"time":[2023,2,2,0,33,16]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":22,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":734095,"dangerLevel":0,"time":[2023,2,2,0,33,21]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":21,"emfLow":0}},"latency":378,"freeMemmory":791,"millis":739111,"dangerLevel":0,"time":[2023,2,2,0,33,26]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":467,"freeMemmory":791,"millis":744128,"dangerLevel":0,"time":[2023,2,2,0,33,31]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":749140,"dangerLevel":0,"time":[2023,2,2,0,33,36]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":380,"freeMemmory":791,"millis":754153,"dangerLevel":0,"time":[2023,2,2,0,33,41]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":376,"freeMemmory":791,"millis":759164,"dangerLevel":0,"time":[2023,2,2,0,33,46]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":466,"freeMemmory":791,"millis":764177,"dangerLevel":0,"time":[2023,2,2,0,33,51]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":769188,"dangerLevel":0,"time":[2023,2,2,0,33,56]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":774201,"dangerLevel":0,"time":[2023,2,2,0,34,1]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":779216,"dangerLevel":0,"time":[2023,2,2,0,34,6]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":384,"freeMemmory":791,"millis":784229,"dangerLevel":0,"time":[2023,2,2,0,34,11]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":789244,"dangerLevel":0,"time":[2023,2,2,0,34,16]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":794255,"dangerLevel":0,"time":[2023,2,2,0,34,21]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":799269,"dangerLevel":0,"time":[2023,2,2,0,34,26]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":804280,"dangerLevel":0,"time":[2023,2,2,0,34,31]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":809296,"dangerLevel":0,"time":[2023,2,2,0,34,36]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":814310,"dangerLevel":0,"time":[2023,2,2,0,34,41]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":819322,"dangerLevel":0,"time":[2023,2,2,0,34,46]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":824338,"dangerLevel":0,"time":[2023,2,2,0,34,51]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":829352,"dangerLevel":0,"time":[2023,2,2,0,34,56]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":834368,"dangerLevel":0,"time":[2023,2,2,0,35,1]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":839384,"dangerLevel":0,"time":[2023,2,2,0,35,6]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":844396,"dangerLevel":0,"time":[2023,2,2,0,35,11]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":8,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":849414,"dangerLevel":0,"time":[2023,2,2,0,35,16]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":854429,"dangerLevel":0,"time":[2023,2,2,0,35,21]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":859444,"dangerLevel":0,"time":[2023,2,2,0,35,26]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":864457,"dangerLevel":0,"time":[2023,2,2,0,35,31]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":869472,"dangerLevel":0,"time":[2023,2,2,0,35,36]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":874484,"dangerLevel":0,"time":[2023,2,2,0,35,41]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":879499,"dangerLevel":0,"time":[2023,2,2,0,35,46]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":884514,"dangerLevel":0,"time":[2023,2,2,0,35,51]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":889530,"dangerLevel":0,"time":[2023,2,2,0,35,56]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":367,"freeMemmory":791,"millis":894545,"dangerLevel":0,"time":[2023,2,2,0,36,1]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":899559,"dangerLevel":0,"time":[2023,2,2,0,36,6]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":904572,"dangerLevel":0,"time":[2023,2,2,0,36,11]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":467,"freeMemmory":791,"millis":909585,"dangerLevel":0,"time":[2023,2,2,0,36,16]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":914604,"dangerLevel":0,"time":[2023,2,2,0,36,21]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":919615,"dangerLevel":0,"time":[2023,2,2,0,36,26]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":924631,"dangerLevel":0,"time":[2023,2,2,0,36,31]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":467,"freeMemmory":791,"millis":929644,"dangerLevel":0,"time":[2023,2,2,0,36,36]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":60,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":934660,"dangerLevel":0,"time":[2023,2,2,0,36,41]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":939675,"dangerLevel":0,"time":[2023,2,2,0,36,46]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":944690,"dangerLevel":0,"time":[2023,2,2,0,36,51]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":450,"freeMemmory":791,"millis":949705,"dangerLevel":0,"time":[2023,2,2,0,36,56]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":954718,"dangerLevel":0,"time":[2023,2,2,0,37,2]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":959730,"dangerLevel":0,"time":[2023,2,2,0,37,7]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":964744,"dangerLevel":0,"time":[2023,2,2,0,37,12]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":446,"freeMemmory":791,"millis":969759,"dangerLevel":0,"time":[2023,2,2,0,37,17]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":974772,"dangerLevel":0,"time":[2023,2,2,0,37,22]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":979791,"dangerLevel":0,"time":[2023,2,2,0,37,27]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":984806,"dangerLevel":0,"time":[2023,2,2,0,37,32]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":383,"freeMemmory":791,"millis":989821,"dangerLevel":0,"time":[2023,2,2,0,37,37]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":994835,"dangerLevel":0,"time":[2023,2,2,0,37,42]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":368,"freeMemmory":791,"millis":999847,"dangerLevel":0,"time":[2023,2,2,0,37,47]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":379,"freeMemmory":791,"millis":1004861,"dangerLevel":0,"time":[2023,2,2,0,37,52]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1009875,"dangerLevel":0,"time":[2023,2,2,0,37,57]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1014890,"dangerLevel":0,"time":[2023,2,2,0,38,2]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1019907,"dangerLevel":0,"time":[2023,2,2,0,38,7]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1024923,"dangerLevel":0,"time":[2023,2,2,0,38,12]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1029938,"dangerLevel":0,"time":[2023,2,2,0,38,17]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1034951,"dangerLevel":0,"time":[2023,2,2,0,38,22]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1039966,"dangerLevel":0,"time":[2023,2,2,0,38,27]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1044981,"dangerLevel":0,"time":[2023,2,2,0,38,32]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":1049997,"dangerLevel":0,"time":[2023,2,2,0,38,37]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1055010,"dangerLevel":0,"time":[2023,2,2,0,38,42]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1060024,"dangerLevel":0,"time":[2023,2,2,0,38,47]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1065038,"dangerLevel":0,"time":[2023,2,2,0,38,52]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1070053,"dangerLevel":0,"time":[2023,2,2,0,38,57]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":1075068,"dangerLevel":0,"time":[2023,2,2,0,39,2]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":376,"freeMemmory":791,"millis":1080082,"dangerLevel":0,"time":[2023,2,2,0,39,7]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1085095,"dangerLevel":0,"time":[2023,2,2,0,39,12]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1090108,"dangerLevel":0,"time":[2023,2,2,0,39,17]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":378,"freeMemmory":791,"millis":1095123,"dangerLevel":0,"time":[2023,2,2,0,39,22]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1100136,"dangerLevel":0,"time":[2023,2,2,0,39,27]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1105149,"dangerLevel":0,"time":[2023,2,2,0,39,32]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1110165,"dangerLevel":0,"time":[2023,2,2,0,39,37]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":459,"freeMemmory":791,"millis":1115180,"dangerLevel":0,"time":[2023,2,2,0,39,42]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1120194,"dangerLevel":0,"time":[2023,2,2,0,39,47]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1125208,"dangerLevel":0,"time":[2023,2,2,0,39,52]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1130222,"dangerLevel":0,"time":[2023,2,2,0,39,57]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":459,"freeMemmory":791,"millis":1135241,"dangerLevel":0,"time":[2023,2,2,0,40,2]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":1140256,"dangerLevel":0,"time":[2023,2,2,0,40,7]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":8,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1145272,"dangerLevel":0,"time":[2023,2,2,0,40,12]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1150287,"dangerLevel":0,"time":[2023,2,2,0,40,17]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":463,"freeMemmory":791,"millis":1155301,"dangerLevel":0,"time":[2023,2,2,0,40,22]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1160316,"dangerLevel":0,"time":[2023,2,2,0,40,27]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1165329,"dangerLevel":0,"time":[2023,2,2,0,40,32]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1170343,"dangerLevel":0,"time":[2023,2,2,0,40,37]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":460,"freeMemmory":791,"millis":1175357,"dangerLevel":0,"time":[2023,2,2,0,40,42]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":368,"freeMemmory":791,"millis":1180371,"dangerLevel":0,"time":[2023,2,2,0,40,47]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":24,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1185384,"dangerLevel":0,"time":[2023,2,2,0,40,52]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":23,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1190401,"dangerLevel":0,"time":[2023,2,2,0,40,57]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":22,"emfLow":0}},"latency":379,"freeMemmory":791,"millis":1195414,"dangerLevel":0,"time":[2023,2,2,0,41,2]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":21,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":1200425,"dangerLevel":0,"time":[2023,2,2,0,41,7]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":1205438,"dangerLevel":0,"time":[2023,2,2,0,41,12]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":1},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1210457,"dangerLevel":0,"time":[2023,2,2,0,41,17]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":379,"freeMemmory":791,"millis":1215470,"dangerLevel":0,"time":[2023,2,2,0,41,22]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1220487,"dangerLevel":0,"time":[2023,2,2,0,41,27]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1225501,"dangerLevel":0,"time":[2023,2,2,0,41,32]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":376,"freeMemmory":791,"millis":1230516,"dangerLevel":0,"time":[2023,2,2,0,41,37]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":24,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1235529,"dangerLevel":0,"time":[2023,2,2,0,41,42]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":23,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1240544,"dangerLevel":0,"time":[2023,2,2,0,41,47]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":22,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1245555,"dangerLevel":0,"time":[2023,2,2,0,41,52]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":21,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1250570,"dangerLevel":0,"time":[2023,2,2,0,41,57]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1255582,"dangerLevel":0,"time":[2023,2,2,0,42,3]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1260597,"dangerLevel":0,"time":[2023,2,2,0,42,8]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1265608,"dangerLevel":0,"time":[2023,2,2,0,42,13]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1270623,"dangerLevel":0,"time":[2023,2,2,0,42,18]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1275637,"dangerLevel":0,"time":[2023,2,2,0,42,23]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":376,"freeMemmory":791,"millis":1280651,"dangerLevel":0,"time":[2023,2,2,0,42,28]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1285663,"dangerLevel":0,"time":[2023,2,2,0,42,33]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1290680,"dangerLevel":0,"time":[2023,2,2,0,42,38]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":376,"freeMemmory":791,"millis":1295694,"dangerLevel":0,"time":[2023,2,2,0,42,43]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":376,"freeMemmory":791,"millis":1300708,"dangerLevel":0,"time":[2023,2,2,0,42,48]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1305719,"dangerLevel":0,"time":[2023,2,2,0,42,53]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":376,"freeMemmory":791,"millis":1310736,"dangerLevel":0,"time":[2023,2,2,0,42,58]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1315751,"dangerLevel":0,"time":[2023,2,2,0,43,3]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":474,"freeMemmory":791,"millis":1320765,"dangerLevel":0,"time":[2023,2,2,0,43,8]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":387,"freeMemmory":791,"millis":1325778,"dangerLevel":0,"time":[2023,2,2,0,43,13]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1330791,"dangerLevel":0,"time":[2023,2,2,0,43,18]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1335806,"dangerLevel":0,"time":[2023,2,2,0,43,23]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":470,"freeMemmory":791,"millis":1340823,"dangerLevel":0,"time":[2023,2,2,0,43,28]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1345841,"dangerLevel":0,"time":[2023,2,2,0,43,33]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1350850,"dangerLevel":0,"time":[2023,2,2,0,43,38]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1355867,"dangerLevel":0,"time":[2023,2,2,0,43,43]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":462,"freeMemmory":791,"millis":1360877,"dangerLevel":0,"time":[2023,2,2,0,43,48]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1365893,"dangerLevel":0,"time":[2023,2,2,0,43,53]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1370908,"dangerLevel":0,"time":[2023,2,2,0,43,58]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":377,"freeMemmory":791,"millis":1375922,"dangerLevel":0,"time":[2023,2,2,0,44,3]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":465,"freeMemmory":791,"millis":1380933,"dangerLevel":0,"time":[2023,2,2,0,44,8]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1385948,"dangerLevel":0,"time":[2023,2,2,0,44,13]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":1390961,"dangerLevel":0,"time":[2023,2,2,0,44,18]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1395975,"dangerLevel":0,"time":[2023,2,2,0,44,23]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":384,"freeMemmory":791,"millis":1400989,"dangerLevel":0,"time":[2023,2,2,0,44,28]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1406004,"dangerLevel":0,"time":[2023,2,2,0,44,33]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1411017,"dangerLevel":0,"time":[2023,2,2,0,44,38]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1416029,"dangerLevel":0,"time":[2023,2,2,0,44,43]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1421041,"dangerLevel":0,"time":[2023,2,2,0,44,48]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":390,"freeMemmory":791,"millis":1426056,"dangerLevel":0,"time":[2023,2,2,0,44,53]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1431072,"dangerLevel":0,"time":[2023,2,2,0,44,58]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":367,"freeMemmory":791,"millis":1436087,"dangerLevel":0,"time":[2023,2,2,0,45,3]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":1441102,"dangerLevel":0,"time":[2023,2,2,0,45,8]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":1446123,"dangerLevel":0,"time":[2023,2,2,0,45,13]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1451141,"dangerLevel":0,"time":[2023,2,2,0,45,18]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1456154,"dangerLevel":0,"time":[2023,2,2,0,45,23]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1461170,"dangerLevel":0,"time":[2023,2,2,0,45,28]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":1466184,"dangerLevel":0,"time":[2023,2,2,0,45,33]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":24,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1471200,"dangerLevel":0,"time":[2023,2,2,0,45,38]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":23,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1476211,"dangerLevel":0,"time":[2023,2,2,0,45,43]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":22,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1481225,"dangerLevel":0,"time":[2023,2,2,0,45,48]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":21,"emfLow":0}},"latency":380,"freeMemmory":791,"millis":1486240,"dangerLevel":0,"time":[2023,2,2,0,45,53]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1491252,"dangerLevel":0,"time":[2023,2,2,0,45,58]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":1496266,"dangerLevel":0,"time":[2023,2,2,0,46,3]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1501279,"dangerLevel":0,"time":[2023,2,2,0,46,8]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":377,"freeMemmory":791,"millis":1506297,"dangerLevel":0,"time":[2023,2,2,0,46,13]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1511309,"dangerLevel":0,"time":[2023,2,2,0,46,18]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":1516325,"dangerLevel":0,"time":[2023,2,2,0,46,23]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1521339,"dangerLevel":0,"time":[2023,2,2,0,46,28]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":460,"freeMemmory":791,"millis":1526352,"dangerLevel":0,"time":[2023,2,2,0,46,33]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1531364,"dangerLevel":0,"time":[2023,2,2,0,46,38]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":368,"freeMemmory":791,"millis":1536375,"dangerLevel":0,"time":[2023,2,2,0,46,43]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1541389,"dangerLevel":0,"time":[2023,2,2,0,46,48]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":475,"freeMemmory":791,"millis":1546407,"dangerLevel":0,"time":[2023,2,2,0,46,53]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1551424,"dangerLevel":0,"time":[2023,2,2,0,46,58]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":367,"freeMemmory":791,"millis":1556439,"dangerLevel":0,"time":[2023,2,2,0,47,3]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1561451,"dangerLevel":0,"time":[2023,2,2,0,47,9]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":474,"freeMemmory":791,"millis":1566467,"dangerLevel":0,"time":[2023,2,2,0,47,14]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1571480,"dangerLevel":0,"time":[2023,2,2,0,47,19]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1576495,"dangerLevel":0,"time":[2023,2,2,0,47,24]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1581508,"dangerLevel":0,"time":[2023,2,2,0,47,29]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":444,"freeMemmory":791,"millis":1586524,"dangerLevel":0,"time":[2023,2,2,0,47,34]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":373,"freeMemmory":791,"millis":1591536,"dangerLevel":0,"time":[2023,2,2,0,47,39]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1596551,"dangerLevel":0,"time":[2023,2,2,0,47,44]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1601562,"dangerLevel":0,"time":[2023,2,2,0,47,49]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":383,"freeMemmory":791,"millis":1606578,"dangerLevel":0,"time":[2023,2,2,0,47,54]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1611593,"dangerLevel":0,"time":[2023,2,2,0,47,59]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":367,"freeMemmory":791,"millis":1616606,"dangerLevel":0,"time":[2023,2,2,0,48,4]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":1621622,"dangerLevel":0,"time":[2023,2,2,0,48,9]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1626635,"dangerLevel":0,"time":[2023,2,2,0,48,14]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":60,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1631649,"dangerLevel":0,"time":[2023,2,2,0,48,19]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":59,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1636663,"dangerLevel":0,"time":[2023,2,2,0,48,24]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1641679,"dangerLevel":0,"time":[2023,2,2,0,48,29]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1646695,"dangerLevel":0,"time":[2023,2,2,0,48,34]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":8,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1651709,"dangerLevel":0,"time":[2023,2,2,0,48,39]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":7,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1656722,"dangerLevel":0,"time":[2023,2,2,0,48,44]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1661736,"dangerLevel":0,"time":[2023,2,2,0,48,49]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1666751,"dangerLevel":0,"time":[2023,2,2,0,48,54]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1671767,"dangerLevel":0,"time":[2023,2,2,0,48,59]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":1676778,"dangerLevel":0,"time":[2023,2,2,0,49,4]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":367,"freeMemmory":791,"millis":1681794,"dangerLevel":0,"time":[2023,2,2,0,49,9]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1686810,"dangerLevel":0,"time":[2023,2,2,0,49,14]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1691823,"dangerLevel":0,"time":[2023,2,2,0,49,19]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1696837,"dangerLevel":0,"time":[2023,2,2,0,49,24]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1701850,"dangerLevel":0,"time":[2023,2,2,0,49,29]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1706864,"dangerLevel":0,"time":[2023,2,2,0,49,34]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":407,"freeMemmory":791,"millis":1711878,"dangerLevel":0,"time":[2023,2,2,0,49,39]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":24,"emfLow":0}},"latency":377,"freeMemmory":791,"millis":1716892,"dangerLevel":0,"time":[2023,2,2,0,49,44]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":23,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1721909,"dangerLevel":0,"time":[2023,2,2,0,49,49]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":22,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1726921,"dangerLevel":0,"time":[2023,2,2,0,49,54]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":21,"emfLow":0}},"latency":464,"freeMemmory":791,"millis":1731940,"dangerLevel":0,"time":[2023,2,2,0,49,59]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1736954,"dangerLevel":0,"time":[2023,2,2,0,50,4]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1741966,"dangerLevel":0,"time":[2023,2,2,0,50,9]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1746980,"dangerLevel":0,"time":[2023,2,2,0,50,14]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":487,"freeMemmory":791,"millis":1751997,"dangerLevel":0,"time":[2023,2,2,0,50,19]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1757010,"dangerLevel":0,"time":[2023,2,2,0,50,24]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1762026,"dangerLevel":0,"time":[2023,2,2,0,50,29]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1767044,"dangerLevel":0,"time":[2023,2,2,0,50,34]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":457,"freeMemmory":791,"millis":1772060,"dangerLevel":0,"time":[2023,2,2,0,50,39]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1777075,"dangerLevel":0,"time":[2023,2,2,0,50,44]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1782091,"dangerLevel":0,"time":[2023,2,2,0,50,49]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1787106,"dangerLevel":0,"time":[2023,2,2,0,50,54]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":458,"freeMemmory":791,"millis":1792119,"dangerLevel":0,"time":[2023,2,2,0,50,59]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":1797134,"dangerLevel":0,"time":[2023,2,2,0,51,4]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":1802151,"dangerLevel":0,"time":[2023,2,2,0,51,9]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1807164,"dangerLevel":0,"time":[2023,2,2,0,51,14]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":382,"freeMemmory":791,"millis":1812178,"dangerLevel":0,"time":[2023,2,2,0,51,19]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1817192,"dangerLevel":0,"time":[2023,2,2,0,51,24]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1822205,"dangerLevel":0,"time":[2023,2,2,0,51,29]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1827217,"dangerLevel":0,"time":[2023,2,2,0,51,34]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1832233,"dangerLevel":0,"time":[2023,2,2,0,51,39]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1837247,"dangerLevel":0,"time":[2023,2,2,0,51,44]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1842260,"dangerLevel":0,"time":[2023,2,2,0,51,49]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":368,"freeMemmory":791,"millis":1847273,"dangerLevel":0,"time":[2023,2,2,0,51,54]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1852288,"dangerLevel":0,"time":[2023,2,2,0,51,59]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":1857298,"dangerLevel":0,"time":[2023,2,2,0,52,4]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":1862311,"dangerLevel":0,"time":[2023,2,2,0,52,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1867324,"dangerLevel":0,"time":[2023,2,2,0,52,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":26,"emfLow":0}},"latency":377,"freeMemmory":791,"millis":1872338,"dangerLevel":0,"time":[2023,2,2,0,52,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":25,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1877350,"dangerLevel":0,"time":[2023,2,2,0,52,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":24,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1882366,"dangerLevel":0,"time":[2023,2,2,0,52,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":23,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1887380,"dangerLevel":0,"time":[2023,2,2,0,52,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":22,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1892399,"dangerLevel":0,"time":[2023,2,2,0,52,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":21,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1897413,"dangerLevel":0,"time":[2023,2,2,0,52,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1902426,"dangerLevel":0,"time":[2023,2,2,0,52,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1907439,"dangerLevel":0,"time":[2023,2,2,0,52,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":1912453,"dangerLevel":0,"time":[2023,2,2,0,53,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":60,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":444,"freeMemmory":791,"millis":1917464,"dangerLevel":0,"time":[2023,2,2,0,53,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1922478,"dangerLevel":0,"time":[2023,2,2,0,53,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":1927492,"dangerLevel":0,"time":[2023,2,2,0,53,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":1932509,"dangerLevel":0,"time":[2023,2,2,0,53,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":464,"freeMemmory":791,"millis":1937521,"dangerLevel":0,"time":[2023,2,2,0,53,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":1942537,"dangerLevel":0,"time":[2023,2,2,0,53,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1947550,"dangerLevel":0,"time":[2023,2,2,0,53,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":1952565,"dangerLevel":0,"time":[2023,2,2,0,53,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":474,"freeMemmory":791,"millis":1957578,"dangerLevel":0,"time":[2023,2,2,0,53,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":1962592,"dangerLevel":0,"time":[2023,2,2,0,53,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1967609,"dangerLevel":0,"time":[2023,2,2,0,53,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":1972625,"dangerLevel":0,"time":[2023,2,2,0,54,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":462,"freeMemmory":791,"millis":1977641,"dangerLevel":0,"time":[2023,2,2,0,54,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":368,"freeMemmory":791,"millis":1982654,"dangerLevel":0,"time":[2023,2,2,0,54,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":1987671,"dangerLevel":0,"time":[2023,2,2,0,54,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":1992685,"dangerLevel":0,"time":[2023,2,2,0,54,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":462,"freeMemmory":791,"millis":1997701,"dangerLevel":0,"time":[2023,2,2,0,54,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":2002712,"dangerLevel":0,"time":[2023,2,2,0,54,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":2007728,"dangerLevel":0,"time":[2023,2,2,0,54,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":2012739,"dangerLevel":0,"time":[2023,2,2,0,54,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":384,"freeMemmory":791,"millis":2017756,"dangerLevel":0,"time":[2023,2,2,0,54,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":2022766,"dangerLevel":0,"time":[2023,2,2,0,54,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":9,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2027780,"dangerLevel":0,"time":[2023,2,2,0,54,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":8,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":2032790,"dangerLevel":0,"time":[2023,2,2,0,55,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":375,"freeMemmory":791,"millis":2037807,"dangerLevel":0,"time":[2023,2,2,0,55,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2042824,"dangerLevel":0,"time":[2023,2,2,0,55,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":2047837,"dangerLevel":0,"time":[2023,2,2,0,55,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":381,"freeMemmory":791,"millis":2052850,"dangerLevel":0,"time":[2023,2,2,0,55,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":377,"freeMemmory":791,"millis":2057863,"dangerLevel":0,"time":[2023,2,2,0,55,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2062873,"dangerLevel":0,"time":[2023,2,2,0,55,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2067889,"dangerLevel":0,"time":[2023,2,2,0,55,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":2072903,"dangerLevel":0,"time":[2023,2,2,0,55,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2077918,"dangerLevel":0,"time":[2023,2,2,0,55,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":2082933,"dangerLevel":0,"time":[2023,2,2,0,55,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2087946,"dangerLevel":0,"time":[2023,2,2,0,55,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":21,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":2092962,"dangerLevel":0,"time":[2023,2,2,0,56,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":365,"freeMemmory":791,"millis":2097976,"dangerLevel":0,"time":[2023,2,2,0,56,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2102990,"dangerLevel":0,"time":[2023,2,2,0,56,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":2108004,"dangerLevel":0,"time":[2023,2,2,0,56,15]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2113018,"dangerLevel":0,"time":[2023,2,2,0,56,20]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":2118029,"dangerLevel":0,"time":[2023,2,2,0,56,25]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":471,"freeMemmory":791,"millis":2123044,"dangerLevel":0,"time":[2023,2,2,0,56,30]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":372,"freeMemmory":791,"millis":2128059,"dangerLevel":0,"time":[2023,2,2,0,56,35]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2133072,"dangerLevel":0,"time":[2023,2,2,0,56,40]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":2138086,"dangerLevel":0,"time":[2023,2,2,0,56,45]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":477,"freeMemmory":791,"millis":2143101,"dangerLevel":0,"time":[2023,2,2,0,56,50]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2148114,"dangerLevel":0,"time":[2023,2,2,0,56,55]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":2153128,"dangerLevel":0,"time":[2023,2,2,0,57,0]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":2158142,"dangerLevel":0,"time":[2023,2,2,0,57,5]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":470,"freeMemmory":791,"millis":2163156,"dangerLevel":0,"time":[2023,2,2,0,57,10]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":11,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":2168172,"dangerLevel":0,"time":[2023,2,2,0,57,16]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":10,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":2173187,"dangerLevel":0,"time":[2023,2,2,0,57,21]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":379,"freeMemmory":791,"millis":2178201,"dangerLevel":0,"time":[2023,2,2,0,57,26]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":20,"emfLow":0}},"latency":466,"freeMemmory":791,"millis":2183217,"dangerLevel":0,"time":[2023,2,2,0,57,31]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":19,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2188231,"dangerLevel":0,"time":[2023,2,2,0,57,36]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":18,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2193249,"dangerLevel":0,"time":[2023,2,2,0,57,41]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":17,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":2198264,"dangerLevel":0,"time":[2023,2,2,0,57,46]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":467,"freeMemmory":791,"millis":2203279,"dangerLevel":0,"time":[2023,2,2,0,57,51]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":374,"freeMemmory":791,"millis":2208296,"dangerLevel":0,"time":[2023,2,2,0,57,56]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":2213308,"dangerLevel":0,"time":[2023,2,2,0,58,1]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":366,"freeMemmory":791,"millis":2218322,"dangerLevel":0,"time":[2023,2,2,0,58,6]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":383,"freeMemmory":791,"millis":2223339,"dangerLevel":0,"time":[2023,2,2,0,58,11]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2228356,"dangerLevel":0,"time":[2023,2,2,0,58,16]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2233368,"dangerLevel":0,"time":[2023,2,2,0,58,21]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":14,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":2238382,"dangerLevel":0,"time":[2023,2,2,0,58,26]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":62,"emfLow":0},"sensorB":{"emfHigh":13,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2243395,"dangerLevel":0,"time":[2023,2,2,0,58,31]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":61,"emfLow":0},"sensorB":{"emfHigh":12,"emfLow":0}},"latency":370,"freeMemmory":791,"millis":2248409,"dangerLevel":0,"time":[2023,2,2,0,58,36]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":63,"emfLow":0},"sensorB":{"emfHigh":16,"emfLow":0}},"latency":369,"freeMemmory":791,"millis":2253422,"dangerLevel":0,"time":[2023,2,2,0,58,41]}
+{"strike":"False","Calibration":{"sensorA":{"emfHigh":64,"emfLow":0},"sensorB":{"emfHigh":15,"emfLow":0}},"latency":371,"freeMemmory":791,"millis":2258435,"dangerLevel":0,"time":[2023,2,2,0,58,46]}
